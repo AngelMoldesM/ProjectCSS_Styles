@@ -1,0 +1,56 @@
+body{
+    background-color: #d0d3d4;
+}
+h1{
+    color: #cd6155;
+}
+h2{
+    color: indianred;
+}
+ul>li{
+    color: salmon;
+}
+*p{
+    background-color: #8073fa;
+}
+input{
+    border-color:#73fa80; border: 3px;
+}
+.first{
+    background-color: salmon;
+}
+#special{
+    border-color: rgb(#115, #250, #128); border: 4px;
+}
+div{
+    font-size: 25px;
+}
+[type="text"]{
+    background-color: salmon;
+}
+div:nth-child(5) p{
+    background-color: #73fa80;
+}
+div:nth-child(5) p:last-child{
+    border: 5px solid salmon;
+}
+div:nth-child(5) em{
+    color: salmon; font-size: 20px;
+}
+
+
+input:checked{
+    margin-left: 50px;
+}
+label{
+    text-transform: uppercase;
+}
+h1:hover{
+    color: #8073FA;
+}
+#special::first-letter{
+    color:#73FA80 ; font-size: 100px;
+}
+a:visited{
+    color: salmon;
+}
